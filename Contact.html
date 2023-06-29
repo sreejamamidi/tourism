@@ -1,0 +1,101 @@
+<html>
+    <head>
+        <title>Blog Application</title>
+        <style>
+            #topbar {
+                background-color: midnightblue;
+                padding: 16px;
+                text-align: center;
+            }
+            .menu-item {
+                display: inline;
+                padding: 15px;
+                color: aliceblue;
+                font-size: 20px;
+            }
+            .body {
+                background-color: whitesmoke;
+                margin: 0;
+                padding: 16px;
+            }
+            #register-form {
+                text-align: center;
+                width: 500px;
+                height: 350px;
+                background-color: white;
+                padding: 24px;
+                margin: auto;
+                border: 1px solid grey;
+            }
+            .input-item {
+                font-size: 18;
+                padding-bottom: 12px;
+                border-top: 0;
+                border-left: 0;
+                border-right: 0;
+                border-bottom: 1px solid grey;
+                margin-bottom: 36px;
+                width: 100%;
+            }
+            #input-wrapper {
+                padding-top: 40px;
+                padding-bottom: 40px;
+                padding-left: 30px;
+                padding-right: 80px;               
+            }
+            .footer {
+                background-color: black;
+                padding: 100;
+                text-align: center;
+            }
+            .footer-item {
+                padding: 16px;
+                color: white;
+                font-size: 20;
+            }
+            #btn-submit {
+                background-color: midnightblue;
+                padding-top: 12px;
+                padding-bottom: 12px;
+                padding-left: 24px;
+                padding-right: 24px;
+                font-size: 18px;
+                color: white;
+                border: none;
+            }
+        </style>
+    </head>
+    <body>
+        <header id="topbar">
+            <span class="menu-item"><a style="color: white;" href="index.html">TRIPS</a></span>
+            <span class="menu-item"><a style="color: white;" href="About.html">ABOUT</a></span>
+            <span class="menu-item"><a style="color: white;" href="Contact.html">CONTACT</a></span>
+        </header>
+        <main class="body">
+        <h2 style="text-align: center;">Wanna come on my next trip? Contact Me.</h2>
+        <form id="register-form">
+            <div id="input-wrapper">
+                <div>
+                <input class="input-item" type="text" placeholder="Full Name"><br>
+                </div>
+                <div>
+                <input class="input-item" type="email" placeholder="Email"><br>
+                </div>
+                <div>
+                <input class="input-item" type="number" placeholder="Contact Number"><br>
+                </div>
+            </div>
+                <div>
+                <input id="btn-submit" type="submit" value="Submit">
+                </div>
+        </form>
+        </main>
+        <footer class="footer">
+            <div>
+            <span class="footer-item">TRIPS</span>
+            <span class="footer-item">ABOUT</span>
+            <span class="footer-item">CONTACT</span>
+            </div>
+        </footer>
+    </body>
+</html>
